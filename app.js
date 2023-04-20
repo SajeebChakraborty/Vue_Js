@@ -6,6 +6,9 @@ var app=new Vue({
     methods: {
         myOutcome() {
             return "good";
+        },
+        myAge() {
+            return "N/A";
         }
     }
 })
