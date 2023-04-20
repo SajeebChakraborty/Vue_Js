@@ -8,7 +8,7 @@ var app=new Vue({
             return "good";
         },
         myAge() {
-            return "N/A";
+            return '${this.message} . js';
         }
     }
 })
