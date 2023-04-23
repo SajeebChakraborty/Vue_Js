@@ -41,6 +41,10 @@ var app=new Vue({
         show2(e)
         {
             console.log(e.target.value);
+        },
+        message2()
+        {
+            console.log("this is a message");
         }
 
 

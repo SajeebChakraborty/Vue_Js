@@ -16,6 +16,15 @@
 
     <div id="app">
 
+        <!--if else-if condition-->
+        <h1 v-if="count > 10">Greater than 10</h1>
+        <h1 v-else-if="count > 5">Greater than 5</h1>
+
+        <!--modifier here alt shift is key of keyboard-->
+        <button @click.alt="message2">Click</button>
+        <button @click.shift="message2">Click</button>
+        <a v-bind:href="link" @click.prevent>Google</a>
+
         <!--2 way data binding-->
         My name is : {{ name }} <br>
         <input type="text" v-model="name">
