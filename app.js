@@ -4,6 +4,7 @@ var app=new Vue({
         link: 'https://www.google.com',
         message: 'Hello Vue!',
         welcome: 'Welcome to Vue.js',
+        classes: ['one', 'two'],
     },
     methods: {
         myOutcome() {
