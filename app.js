@@ -1,6 +1,13 @@
 var app=new Vue({
     el: '#app',
     data: {
+
+        log:{
+
+            x:0,
+            y:0,
+
+        },
         count: 0,
         link: 'https://www.google.com',
         message: 'Hello Vue!',
@@ -19,9 +26,13 @@ var app=new Vue({
         },
         amount(data)
         {
-
             return this.count+=data;
-
+        },
+        over(event)
+        {
+            this.log.x=event.offsetX;
+            this.log.y=event.offsetY;
         }
+
     }
 })

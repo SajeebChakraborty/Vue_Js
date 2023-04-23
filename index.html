@@ -8,12 +8,18 @@
      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+       
 </head>
 <body>
 
     <div id="app">
 
-        <!--Click event with method-->
+        <!--Event object-->
+        <div class="canvas" @mousemove="over">{{ log.x }},{{ log.y }}</div>
+
+        <!--Double Click event with method-->
         <h1>Count : {{ count }}</h1>
         <button @dblclick="amount(5)">Increase 5</button>
         <button @dblclick="amount(-5)">Decrease 5</button>
