@@ -9,7 +9,10 @@ var app=new Vue({
             return "good";
         },
         myAge() {
-            return '${this.welcome} . good';
+            return `${this.welcome} . good`;
+        },
+        myAge2(age) {
+            return `${age} . good`;
         }
     }
 })
