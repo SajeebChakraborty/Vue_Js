@@ -36,7 +36,12 @@ var app=new Vue({
         show(e)
         {
             console.log(e.target.value);
+        },
+        show2(e)
+        {
+            console.log(e.target.value);
         }
+
 
     }
 })
