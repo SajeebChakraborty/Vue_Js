@@ -16,6 +16,11 @@
 
     <div id="app">
 
+        <!--v-for loop-->
+        <ul>
+            <li v-for="(item,index) in items">{{ index }} || {{ item.name }} || {{ item.price }} || {{ item.quantity }}</li>
+        </ul>
+
         <!--if else-if condition-->
         <h1 v-if="count > 10">Greater than 10</h1>
         <h1 v-else-if="count > 5">Greater than 5</h1>

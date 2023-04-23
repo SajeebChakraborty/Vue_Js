@@ -14,6 +14,13 @@ var app=new Vue({
         welcome: 'Welcome to Vue.js',
         classes: ['one', 'two'],
         name: 'Sajeeb Chakraborty',
+        items:[
+
+            {name: 'item1', price: 100, quantity: 10},
+            {name: 'item2', price: 200, quantity: 20},
+            {name: 'item3', price: 300, quantity: 30},
+
+        ]
     },
     methods: {
         myOutcome() {
