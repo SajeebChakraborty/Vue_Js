@@ -13,6 +13,7 @@ var app=new Vue({
         message: 'Hello Vue!',
         welcome: 'Welcome to Vue.js',
         classes: ['one', 'two'],
+        name: 'Sajeeb Chakraborty',
     },
     methods: {
         myOutcome() {

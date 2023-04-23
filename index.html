@@ -16,6 +16,10 @@
 
     <div id="app">
 
+        <!--2 way data binding-->
+        My name is : {{ name }} <br>
+        <input type="text" v-model="name">
+
         <!--Key up event (like on change event syn mode)-->
         <input type="text" @keyup="show">
     
