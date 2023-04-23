@@ -12,12 +12,21 @@
 <body>
 
     <div id="app">
-        //click event
+
+        <!--Click event with method-->
+        <h1>Count : {{ count }}</h1>
+        <button @click="amount(5)">Increase 5</button>
+        <button @click="amount(-5)">Decrease 5</button>
+
+         <!--Click event without method-->
         <h1>Count : {{ count }}</h1>
         <button @click="count++">Increase</button>
         <button @click="count--">Decrease</button>
+
+         <!--one way data binding-->
         <a v-bind:href="link">Google</a>
         <h2 :class="classes">Sajeeb Chakraborty</h2>
+
         <h1>{{ message }}</h1>
         <h2>{{ myOutcome() }}</h2>
         <h2>{{ myAge() }}</h2>

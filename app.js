@@ -16,6 +16,12 @@ var app=new Vue({
         },
         myAge2(age) {
             return `${age} . good`;
+        },
+        amount(data)
+        {
+
+            return this.count+=data;
+
         }
     }
 })
