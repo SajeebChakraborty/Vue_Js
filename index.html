@@ -12,6 +12,10 @@
 <body>
 
     <div id="app">
+        //click event
+        <h1>Count : {{ count }}</h1>
+        <button @click="count++">Increase</button>
+        <button @click="count--">Decrease</button>
         <a v-bind:href="link">Google</a>
         <h2 :class="classes">Sajeeb Chakraborty</h2>
         <h1>{{ message }}</h1>
