@@ -32,6 +32,10 @@ var app=new Vue({
         {
             this.log.x=event.offsetX;
             this.log.y=event.offsetY;
+        },
+        show(e)
+        {
+            console.log(e.target.value);
         }
 
     }

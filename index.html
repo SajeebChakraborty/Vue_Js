@@ -16,6 +16,10 @@
 
     <div id="app">
 
+        <!--Key up event (like on change event syn mode)-->
+        <input type="text" @keyup="show">
+
+
         <!--Event object-->
         <div class="canvas" @mousemove="over">{{ log.x }},{{ log.y }}</div>
 
